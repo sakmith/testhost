@@ -1,0 +1,234 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container-fluid{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 205vh;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    /* background-color: aqua; */
+    
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(89,80,247);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.header-left, .header-right{
+    width: 30%;
+    height: 60px;
+    /* background-color: black; */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+}
+.header-right, i{
+    text-align: right;
+    margin-left: 2%;
+    /* background-color: blue; */
+}
+
+i{
+    width: 20px;
+    color: black;
+}
+i:hover{
+    color: aliceblue;
+}
+.container-logo{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+}
+.logo, .menu{
+    width: 30%;
+    height: 100px;
+    /* background-color: blue; */
+    
+}
+.navbar-logo{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(89,80,247); */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.menu-page{
+    display: flex;
+    justify-content: space-between;
+    line-height: 85px;
+    
+}
+img{
+    margin-top: 5%;
+    
+}
+.menu> ul ,li ,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-page a:hover{
+    color: blue;
+}
+.container-img{
+    width: 100%;
+    height: 700px;
+    /* background-color: black; */
+    float: left;
+    background-image: url(4.webp);
+
+}
+.text{
+    width: 30%;
+    height: 40%;
+    /* background-color: aquamarine; */
+    margin-top: 5%;
+    margin-left: 50%;
+    line-height: 60px;
+    
+}
+.contact{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(89,80,247);
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 50%;   
+}
+.contact a{
+    color: white;
+}
+.contact:hover{
+    background-color: black;
+}
+.contact a:hover{
+    color: white;
+}
+.container-box{
+    width: 100%;
+    height: 10px;
+    /* float: left; */
+    
+}
+.box-content{
+    width: 25%;
+    height: 600px;
+    /* background-color: rgb(143, 8, 8)!important; */
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    color: black;
+    margin-left: 20%;
+    
+}
+.contact-contentBox{
+    width: 190px;
+    height: 50px;
+    background-color: rgb(89,80,247);
+    text-align: center;
+    line-height: 50px;
+    margin-top: 45px;
+    
+}
+.contact-contentBox a{
+    color: white;
+}
+.contact-contentBox:hover{
+    background-color: black;
+}
+
+.box-content h1{
+    font-size: 40px;
+}
+.box-content-img img{
+    margin-top: 100px;
+    float: right;
+    margin-right: 19%;
+}
+.end-content{
+    float: left;
+    width: 100%;
+    height: 270px;
+    background-image: url(1.webp);
+    margin-top: 4%;
+}
+.color{
+    float: left;
+    background-color: rgba(56, 54, 54, 0.486);
+    width: 100%;
+    height: 270px;
+    
+}
+.content-endbox{
+    width: 15%;
+    /* background-color: blue; */
+    float: left;
+    height: 200px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.text-endbox{
+    width: 60%;
+    height: 200px;
+    /* background-color: red; */
+    float: right;
+    line-height: 50px;
+    color: white;
+}
+
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-top: 2px solid transparent;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content a:first-child {
+    border-top: 2px solid blue; /* Change color of the border when hovering */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
